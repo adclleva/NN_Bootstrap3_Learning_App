@@ -1,7 +1,6 @@
 ## there's difference between container-fluid and container 
-  containers change with different viewpoints
-
-  container fluid changes sizes according to their parent containers
+- containers change with different viewpoints
+- container fluid changes sizes according to their parent containers
 
 ## Bootstrap has a grid system
 
@@ -84,5 +83,67 @@
 - img-responsive
   - you can give this class for an image to get these styles:
     display: block;
-    max-wdith: 100%;
+    max-wdith: 100%; // this will be 100% of their parent container
     height: auto;
+- img-circle
+- img-rounded
+- img-thumbnail
+  - this provides the some padding a slight border as well
+- center-block 
+  - this makes the image in the middle
+
+## Visibility Classes
+- to hide elements
+  - hidden-xs/hidden-md
+    - these hide the elements on these sizes
+- to show elements
+  - visisble-xs / visisble-md-block
+    - these are only visible on these screens and the rest of the widths are not visible  
+    - visible-md-inline-block
+      - gives us the ability of inline and block
+        - Blocks basically takes the entire space of the parent element
+  
+## Drop-down Menu's 
+- <div class="dropdown">
+    <button type="button" class="btn btn-dfault dropdown-toggle" data-toggle="dropdown">
+      Meats <div class="caret"></div> // this gives the caret
+    </button>
+
+    <ul class="dropdown-menu">
+      <li class="dropdown-header">Meats</li> // you can style this to be headers as these wont be clickable
+      <li class="disabled">Ham</li> // this makes the item unclickable
+      <li>Beef</li>
+      <li>Chicken</li>
+  
+      <li class="dropdown-header">Veggies</li>
+      <li><a href="#">Spinach</a></li>
+      <li>Broccoli</li>
+    </ul>
+  </div>
+
+  ## Tabs and Pills (Navigation)
+  - nav 
+  - nav-tabs
+  - active
+  - nav-pills
+  - nav-stacked
+    - makes the nav be vertial
+  - nav-justified
+    - makes the nav be equal in size within the parent element
+
+## NavBars
+- nav
+- navbar-nav
+  - have this within a nav element
+- navbar
+  - you nest this within a nac navbar-nav within the ul
+    - li
+- navbar-inverse / navbar-default
+- when you want the navbar to stretch across the page, you take them out of a container
+- if you want the navbar to stretch out and want the nav elements to line up within the other stuff
+    you then have to put it in the container
+- navbar-fixed-bottom
+  - sometimes you may need to change the padding from the bottom to show everything
+- navbar-fixed-top
+  - sometimes you may need to change the padding from the top to show everything
+ 
