@@ -147,3 +147,116 @@
 - navbar-fixed-top
   - sometimes you may need to change the padding from the top to show everything
  
+## NavBar Classes
+- navbar-header
+  - this can give you a logo to the home page or title
+  - this is in a div tag
+  - navbar-brand 
+    - this is in an a tag
+- to implement buttons in the navbar
+  - navbar-btn 
+    - navbar-right to have the buttons in the right
+  - this is with a button tag
+
+## Mobile Navbars
+- collapse
+- navbar-collapse
+- id='mydropdown"
+- nav-bar-toggle
+- collapsed
+- data-toggle="collapse"
+- data-target="#mydropdown"
+- <span class="icon-bar"></span>
+  - we need three of theses to create the button
+
+## Jumbotrons
+- jumbotron
+  - you can use a container class inside the jumbotron to have the elements inside alighn with everything else
+  - you should check the margin and the padding
+  
+## Styling Forms
+- form-control
+- form-group
+  - creates groups for forms
+- checkbox-inline
+- radio-inline
+  - we have to give the inputs a name to have only one of them selectable
+- sr-only
+  - these are for screen leaders only to get rid of the element
+
+## Badges
+- you can have bdges next to the elements
+  - <span class="badge"></span>
+  - you do this with btn classes
+- label level-danger
+  - these are for span tags
+
+## Panels
+- panel
+- panel-default
+- panel-heading
+- panel-title
+- panel-body
+- panel-footer
+
+## Tooltips
+- data-toggle="tooltip"
+- data-placement="top"
+- title-"anything"
+- we can write a javascript script to do something
+
+## Carousels
+- carousel-indicators
+  - in a ol tag
+    - li
+      - data-target="#myslider" 
+      - data-slide-to="index of the page"
+      - active
+- carousel
+  - data-ride="carousel"
+  - slide
+  - carousel-inner
+    - item 
+      - active
+        - to turn the carousel on
+    - item  
+      - carousel-caption
+    - item
+- right carousel-control
+  - href="#anything" 
+  - data-slide="next"
+- left carousel-control
+  - href="#anything" 
+  - data-slide="previous"
+
+## Modals
+- modal
+  - you give a unique id
+  - modal-dialog
+    - modal-content
+      - modal-header
+        - modal-title
+      - model-body
+  - data-toggle="modal
+  - data-target="#modal" <-- the unique id
+  - close
+    - data-dismiss="modal"
+    - this class enables us to close this
+
+## Accordions
+- panel-group
+  - unique id
+  - panel with panel-primary
+    - panel-heading
+      - panel-title
+      - data-target
+      - data-toggle
+        - collapse
+    - panel-collapse collapse
+      - panel-body
+  - data-parent
+    - this closes the others accordians that are actice 
+
+## Bootstrap Themes
+- you can use default css
+- 
